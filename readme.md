@@ -9,15 +9,17 @@ A minimal template with the following things.
 
 ## Installation
 
-* `git@github.com:distantcam/phaser-electron-typescript-parcel.git`
-* `cd phaser-electron-typescript-parcel`
-* `yarn`
+- `git@github.com:distantcam/phaser-electron-typescript-parcel.git`
+- `cd phaser-electron-typescript-parcel`
+- `yarn`
 
 ## Usage
 
 ### Cleaning
+
 Run these commands to clean up the directory
-``` bash
+
+```bash
 # Cleans up the build and dist folders
 yarn clean
 
@@ -26,8 +28,10 @@ yarn superclean
 ```
 
 ### Development mode
+
 Run these commands to build and run the Electron app
-``` bash
+
+```bash
 # Parcel bundles the code
 $ yarn build
 
@@ -47,8 +51,10 @@ $ yarn debug
 ```
 
 ### Production mode and packaging app
+
 Run this command to bundle code in production mode
-``` bash
+
+```bash
 # Create executables
 $ yarn dist
 ```

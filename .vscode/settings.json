@@ -2,5 +2,6 @@
   "files.trimTrailingWhitespace": true,
   "typescript.tsdk": "node_modules\\typescript\\lib",
   "eslint.enable": false,
-  "editor.tabSize": 2
+  "editor.tabSize": 2,
+  "terminal.integrated.defaultProfile.windows": "Command Prompt"
 }

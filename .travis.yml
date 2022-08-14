@@ -38,7 +38,7 @@ before_cache:
 
 deploy:
   provider: releases
-  api_key: '$GITHUB_API_KEY'
+  api_key: "$GITHUB_API_KEY"
   file_glob: true
   file:
     - dist/*.exe

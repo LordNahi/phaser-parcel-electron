@@ -14,7 +14,7 @@
       "env": { "ELECTRON_DEBUG": "vscode" },
       "windows": {
         "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/electron.cmd"
-      },
+      }
     },
     {
       "name": "Electron: Renderer",
