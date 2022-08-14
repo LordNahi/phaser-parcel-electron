@@ -1,15 +1,17 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "module": "es2015",
+    "module": "esnext",
     "strict": true,
     "typeRoots": [
       "./typings",
       "./node_modules/"
     ],
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true
   },
   "include": [
     "src/**/*.ts",
     "typings/**/*.d.ts"
-  ]
+  ],
 }
