@@ -1,6 +1,6 @@
 import { app, BrowserWindow } from "electron";
 import * as path from "path";
-import myJson from "../window.json" assert { type: "json" };
+import windowConfig from "../window.json";
 
 // Let electron reloads by itself
 if (
@@ -16,12 +16,15 @@ let mainWindow: Electron.BrowserWindow | null;
 function createWindow() {
   // Create the browser window.
   mainWindow = new BrowserWindow({
-    width: 1400,
-    height: 700,
+    width: windowConfig.width,
+    height: windowConfig.height,
     webPreferences: {
       nodeIntegration: true,
     },
     resizable: false,
+    fullscreen: false,
+    autoHideMenuBar: true,
+    fullscreenable: false,
   });
 
   // and load the index.html of the app.

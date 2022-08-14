@@ -1,9 +1,10 @@
 import { MainScene } from "./scenes/mainScene";
+import windowConfig from "../window.json";
 
 const config: GameConfig = {
   type: Phaser.AUTO,
-  width: 800,
-  height: 600,
+  width: windowConfig.width,
+  height: windowConfig.height,
   scene: [MainScene],
 };
 
