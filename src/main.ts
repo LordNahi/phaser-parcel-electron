@@ -21,10 +21,11 @@ function createWindow() {
     webPreferences: {
       nodeIntegration: true,
     },
-    resizable: false,
-    fullscreen: false,
+    resizable: windowConfig.resizable,
+    fullscreen: windowConfig.fullscreen,
+    fullscreenable: windowConfig.fullscreen,
     autoHideMenuBar: true,
-    fullscreenable: false,
+    useContentSize: true,
   });
 
   // and load the index.html of the app.
